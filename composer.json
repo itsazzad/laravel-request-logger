@@ -6,15 +6,20 @@
   "authors": [
     {
       "name": "Anderson Andrade",
-      "email": "contato@andersonandra.de"
+      "email": "contato@andersonandra.de",
+      "role": "Developer"
     }
   ],
-  "require": {
-    "php": ">=5.4.0"
+  "support": {
+    "email": "contato@andersonandra.de",
+    "issues":"https://github.com/andersao/laravel-request-logger/issues",
+    "wiki":"https://github.com/andersao/laravel-request-logger",
+    "source":"https://github.com/andersao/laravel-request-logger"
   },
-  "require-dev": {
-    "illuminate/support": "5.0.*|~5.1",
-    "illuminate/http": "5.0.*|~5.1",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*|~5.1|~5.2",
+    "illuminate/http": "5.0.*|~5.1|~5.2",
     "monolog/monolog": "~1.11"
   },
   "autoload": {
@@ -25,5 +30,10 @@
   "config": {
     "preferred-install": "dist"
   },
-  "minimum-stability": "dev"
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.1-dev"
+    }
+  },
+  "minimum-stability": "stable"
 }
